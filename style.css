@@ -1,0 +1,150 @@
+/* Genel Stiller */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header Stilleri */
+header {
+    background-color: #bf7575;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigasyon Stilleri */
+nav {
+    background-color: #FFFFFF;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 10px;
+}
+
+/* Hoş Geldiniz Bölümü Stilleri */
+#welcome-section {
+    background-color: #F2F2F2;
+    padding: 40px 0;
+    text-align: center;
+}
+
+/* Menü Bölümü Stilleri */
+#menu-section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.menu-item {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.menu-item-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* İletişim Bölümü Stilleri */
+#contact-section {
+    background-color: #F2F2F2;
+    padding: 40px 0;
+}
+
+.contact-form {
+    text-align: center;
+}
+
+.contact-form input, .contact-form textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.error {
+    color: #FF0000;
+    margin-bottom: 10px;
+}
+
+/* Rezervasyon Bölümü Stilleri */
+#reservation-section {
+    padding: 40px 0;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.reservation-form {
+    text-align: center;
+}
+
+.reservation-form input, .reservation-form select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+}
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: darkred;
+}
+
+
+/* Footer Stilleri */
+footer {
+    background-color: #333;
+    color: #FFF;
+    padding: 20px;
+    text-align: center;
+}
